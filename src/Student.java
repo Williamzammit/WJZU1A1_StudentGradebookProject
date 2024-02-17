@@ -1,3 +1,12 @@
+// WJZU1A1Classroom Gradebook
+// 16/02/20
+/* Enter a certain number of classes with a certain number of students
+    Returns the average mark for each student and each class.
+    At the end returns the highest mark
+    Option 5 100%
+*/
+
+
 public class Student {
     String studentNum;
     double mark1, mark2, mark3, mark4;
