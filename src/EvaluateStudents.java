@@ -160,7 +160,11 @@ public class EvaluateStudents {
                 students.get(i).mark3, 
                 students.get(i).mark4);
         }
+        try{
         t/=students.size();
+        } catch(Exception e){
+            return 0;
+        }
         return t;
 
     }
